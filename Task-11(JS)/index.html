@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Next Number Finder</h1>
+        
+        <h2>Scenario 1: Find the number next to a certain number in an array</h2>
+        <label for="arrayInput">Enter an array (comma-separated numbers):</label>
+        <input type="text" id="arrayInput" placeholder="e.g. 1, 2, 3, 4, 5">
+        <label for="targetInputArray">Enter the target number:</label>
+        <input type="number" id="targetInputArray" placeholder="e.g. 3">
+        <button onclick="findNextInArray()">Find Next in Array</button>
+        <p id="resultArray"></p>
+        
+        <h2>Scenario 2: Find the next number based on user input</h2>
+        <label for="singleInput">Enter a number (integer or float):</label>
+        <input type="number" id="singleInput" step="any" placeholder="e.g. 2.5">
+        <button onclick="findNextNumber()">Find Next Number</button>
+        <p id="resultSingle"></p>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>

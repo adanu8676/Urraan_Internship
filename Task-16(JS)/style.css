@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.btn_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.btn {
+  background-color: white;
+  padding: 0 0.5em;
+  width: 15em;
+  height: 8em;
+  border-radius: 10em;
+  box-shadow: inset 0 8px 60px rgba(0, 0, 0, .1),
+              inset 0 8px 8px rgba(0, 0, 0, .1),
+              inset 0 -4px 4px rgba(0, 0, 0, .1);
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.btn_indicator {
+  background-color: white;
+  width: 7em;
+  height: 7em;
+  border-radius: 50%;
+  position: absolute;
+  box-shadow: 0 8px 40px rgba(0, 0, 0, .2);
+  transition: transform .3s ease;
+}
+
+.btn_icon-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn_icon {
+  font-size: 7.5rem;
+}
+
+body.darkmode {
+  background-color: black;
+}
+
+.btn.darkmode .btn_indicator {
+  transform: translateX(7em);
+  background-color: blue;
+  box-shadow: 0 8px 40px rgba(0, 0, 0, .3);
+}
+
+.btn.darkmode {
+  box-shadow: inset 0 8px 60px rgba(0, 0, 0, .3),
+              inset 8px 0 8px rgba(0, 0, 0, .3),
+              inset 0 -4px 4px rgba(0, 0, 0, .3);
+}
+
+.btn_icon.animated {
+  animation: spin 0.5s;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.btn_status {
+  font-size: 1.2em;
+}
