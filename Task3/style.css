@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color:white;
+}
+
+.header{
+    margin: 20px 0 10px 20px;
+}
+
+
+
+.main{
+    background-color: #8c3232;
+    margin: 0 0 0px 30px;
+    height: 100%;
+    padding-bottom: 1px;
+}
+
+ 
+#post #post1{
+    text-align:left ;
+
+}
+#post #post1{
+    text-align: left;
+}
+.text-div1 h1{
+    font-size: 333px;
+    padding: 220px 0 0 10px;
+}
+#btt{
+    margin-top: 200px;
+    margin-left: 560px;
+    width: 18px;
+}
+
+.text-div1{
+    position: relative;
+}
+
+.text-div1 button{
+    position: absolute;
+    top: 350px;
+    right: 20px;
+    width: 18px;
+    border-radius: 0%;
+    
+}
+.text-div1 button:last-child{
+    position: absolute;
+    top: 450px;
+    right: 20px;
+}
+#main-headings{
+    font-size: 80px;
+}
+
+.text-div1 #post2{
+    font-size: 30px;
+}
+
+
+.main h1, h3{
+    font-family: Font;
+    font-size: 50px;
+    padding-left: 100px;
+    padding-right: 5px;
+    margin-bottom: 12px;
+}
+
+.main p{
+    padding-left: 100px;
+    font-size: 14px;
+    margin-right: 100px;
+    margin-bottom: 12px;
+}
+
+
+.main h1{
+    color: white;
+    font-size: 120px;
+    font-size: 50px;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-div1{
+    width: 40%;
+}
+
+.form-div2{
+    margin-top: 5%;
+    width: 40%;
+}
+
+
+
+.form-div2 input{
+    margin-bottom: 8px;
+    width: 75%;
+    padding: 8px;
+    background-color: #8c3232;
+    border: 2px solid white;
+    color: white;
+}
+
+#checkb{
+    background-color: #8c3232;
+    border: 2px solid white;
+    margin: 10px 0 0 -190px;
+}
+
+#labels{
+    color: white;
+    margin-left: -180px;
+
+}
+
+.text-div2{
+    margin: 10px 0 -10px -100px;
+}
+
+.text-div2 h1{
+    color: black;
+    font-size: 24px;
+}
+
+.text-div2 p{
+    color: white;
+    font-size: x-small;
+    margin-top: 2px;
+}
+
+.textareas{
+    margin-top: 5%;
+
+}
+
+
+::placeholder{
+    color: white;
+    line-height: 0.3em;
+}
+
+.form-div2 textarea{
+    border: 2px solid white;
+    background-color: #8c3232;
+    width: 75%;
+    margin: 14px 0 0 0;
+    padding: 12px;
+    color: white;
+}
+
+.btn{
+    margin: 5% 0 -30% 0;
+}
+
+.btn button{
+    height: 44px;
+    width: 70%;
+}
+
+
+
+
+
+#box{
+    width: 60px;
+    height: 58px;
+    float: right;
+    margin-left: 400px;
+    margin-top: 250px;
+    background-color: white;
+    background: 
+    linear-gradient(135deg, transparent 45px, #ffffff 0) top left;
+}
+
+#b1{
+    margin-top: 10px;
+    width: 18px;
+    height: 20px;
+    margin-left: 90px;
+    border-radius:0%;
+    
+}
+#b2{
+     margin-left: 59px;
+     border-radius: 0%;
+     width: 18px;
+    height: 20px;
+}
+#b3{
+    margin-left: 37px;
+    border-radius: 0%;
+    width: 18px;
+   height: 20px;
+}
+#b4{
+    margin-left: 37px;
+    border-radius: 0%;
+    width: 18px;
+   height: 20px;
+}
+#b5{
+    margin-left: 45px;
+    border-radius: 0%;
+    width: 18px;
+   height: 20px;
+}
+
+
