@@ -1,0 +1,187 @@
+.left {
+    background-image: url('images/form_bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+form input{
+    width: 230px;
+    margin: 10px 0;
+
+    
+}
+
+
+
+.col-lg-4 img{
+    transform: rotate(16deg);
+    
+}
+
+
+textarea{
+    width: 90%;
+    line-height: 30px;
+    margin-left: 20px;
+    
+}
+
+.btn{
+    width: 50%;
+    line-height: 35px;
+}
+
+.para p b{
+    color: darkblue;
+
+}
+
+
+button{
+    width: 150px;
+    background-color: brown;
+    color: white;
+}
+
+/* Base styles */
+
+.container-fluid {
+    padding: 0;
+  }
+  
+  .line {
+    border-top: 2px solid #ccc;
+  }
+  
+  .sec2-last {
+    flex-direction: column;
+  }
+  
+  .sec2-last button {
+    margin-top: 15px;
+  }
+  
+  .confidential-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .neon .para {
+    text-align: center;
+  }
+  
+/* Reset some basic elements to prevent overflow issues */
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden; /* Prevent horizontal overflow */
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+  /* Base styles */
+  .container-fluid {
+    padding: 0;
+  }
+  
+  .line {
+    border-top: 2px solid #ccc;
+  }
+  
+  .sec2-last {
+    flex-direction: column;
+  }
+  
+  .sec2-last button {
+    margin-top: 15px;
+  }
+  
+  .confidential-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .neon .para {
+    text-align: center;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  @media (min-width: 576px) {
+    /* Small screens (phones, 576px and up) */
+    .container-fluid {
+      padding: 15px;
+    }
+  
+    .sec2-last {
+      flex-direction: row;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    /* Medium screens (tablets, 768px and up) */
+    .form-container .row {
+      flex-direction: row;
+    }
+  
+    .confidential-image-container {
+      justify-content: flex-start;
+      align-items: flex-start;
+    }
+  
+    .neon .para {
+      text-align: left;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    /* Large screens (desktops, 992px and up) */
+    .navbar-nav {
+      margin-left: auto;
+    }
+  
+    .col-md-5 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  
+    .neon .para {
+      text-align: left;
+    }
+  
+    .confidential-image-container {
+      justify-content: flex-end;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    /* Extra large screens (large desktops, 1200px and up) */
+    .col-md-5 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  
+    .navbar-nav {
+      margin-left: auto;
+    }
+  
+    .confidential-image-container {
+      justify-content: flex-end;
+    }
+  }
+  
+  

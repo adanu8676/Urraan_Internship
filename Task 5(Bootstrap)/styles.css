@@ -1,0 +1,235 @@
+.image-1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+    width: 10%
+}
+
+.left-text{
+    text-align: center;
+    margin-top: 325px;
+   
+    margin-left: 70px;
+    margin-right: auto;
+    max-width: 150%;
+    
+}
+
+
+.left-text h1{
+    font-weight: bold;
+    color: white;
+    font-size: 80px;
+}
+
+.left-text h2{
+    font-weight: bold;
+}
+
+
+
+.right-text {
+    text-align: center;
+}
+
+.right-text input[type="text"],
+.right-text textarea {
+    width: 100%; /* Adjust as needed */
+}
+
+
+
+.new{
+    background-color: brown;
+    padding: 20px;
+}
+
+
+
+
+.col-md-6{
+    margin-top: 80px;
+    color: white;
+    
+}
+
+.col-md-6 h3 {
+    margin-top: 20px;
+    
+    color: black;
+    
+}
+
+#pol{
+    
+    font-size:13.5px;
+   
+}
+
+
+.right-align-buttons .btn {
+    float: right; /
+}
+
+.checking{
+    background-color: aqua;
+}
+
+
+#b1,
+#b2,
+#b3,
+#b4,
+#b5,
+#b6 {
+    padding: 0px 8px;
+   background-color: white;
+    margin-top: -35px; 
+    margin-left: 310px; 
+}
+
+#textareas{
+    margin-top: -40px;
+    width: 123%;
+    
+}
+
+
+#textareas1{
+    margin-top: -40px;
+    width: 123%;
+}
+
+#textareas2{
+    margin-top: -40px; 
+    width: 123%;   
+}
+
+#textareas3{
+    margin-top: -40px;  
+    width: 123%;
+}
+
+#textareas4{
+    margin-top: -40px;
+    width: 123%;
+}
+
+.form-check input[type="checkbox"]+label {
+    background-color: brown;
+    color: white;
+    padding: 0.1rem;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.btn {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.right-text input[type="text"],
+.right-text textarea {
+    width: 80%;
+    padding: 0.5rem; 
+    font-size: 0.9rem; 
+    border-radius: 5px;
+    border: 5px solid #ccc;
+    margin-bottom: 0.7rem; 
+}
+
+.btn-success {
+   
+   
+   background-color: white;
+   color: black;
+   font-family: sans-serif;
+   font-size: 35px;
+    width: 450px;
+   margin-top: 20px;
+    
+   
+}
+
+.left-text h1{
+    margin-top: -150px;
+}
+
+.left-text p {
+    margin-bottom: -5;
+    text-align: start;
+    color: black;
+}
+
+
+.left-text h2 {
+    color: black;
+    text-align: start;
+    margin-left: 1px;
+}
+
+@media (max-width: 768px) {
+    
+    .left-text h1 {
+        font-size: 60px; 
+    }
+
+    .right-text{
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 768px) {
+    .left-text {
+        max-width: 70%; /* Adjust as needed */
+    }
+    
+    .right-text {
+        text-align: left;
+    }
+}
+
+
+.toggle-content {
+    display: none;
+}
+
+/* For small screens, show toggle buttons above textareas */
+@media (max-width: 768px) {
+    .toggle-button {
+        display: block;
+        margin-top: 10px; /* Adjust as needed */
+    }
+
+    .toggle-content {
+        display: none;
+    }
+}
+
+
+
+@media (min-width: 768px) {
+    .toggle-button {
+        display: none;
+    }
+
+    .toggle-content {
+        display: block;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
