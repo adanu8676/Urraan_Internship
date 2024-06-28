@@ -1,0 +1,45 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #ffebeb;
+  background: rgba(240, 248, 255, 0.9);
+  background-color: aqua;
+  overflow: hidden;
+}
+
+.bubble {
+  position: absolute;
+  bottom: 0; 
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.2s;
+  animation: float 8s linear infinite; 
+}
+
+.bubble:hover {
+  transform: scale(1.7);
+}
+
+.bubble--paused {
+  animation-play-state: paused;
+}
+
+.bubble--bust {
+  transform: scale(1.8);
+  animation: none;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100vh);
+  }
+}
